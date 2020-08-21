@@ -1,3 +1,16 @@
 body {
   box-sizing: border-box;
+  max-width: 1600px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-gray {
+  color: #757575;
+}
+
+.background-white {
+  background-color: #ffffff;
 }
