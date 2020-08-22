@@ -1,0 +1,27 @@
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.photo-list__item {
+  width: 33.33%;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin-bottom: -6px;
+  opacity: 0.8;
+
+  transition: 500ms;
+}
+
+.photo-list__item:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.photo-list__item-image {
+  width: 100%;
+}
