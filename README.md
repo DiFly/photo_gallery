@@ -17,3 +17,4 @@ Copy files in folder *src* to your machine. Change if you need )
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+[Unsplash License](https://unsplash.com/license)

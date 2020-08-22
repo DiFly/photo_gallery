@@ -1,5 +1,7 @@
 @import url("sidebar.css");
 @import url("main.css");
+@import url("photo-list.css");
+@import url("pagination.css");
 
 @font-face {
   font-family: Raleway;
@@ -30,9 +32,14 @@ a {
   color: #757575;
 }
 
+.text-light-gray {
+  color: #000;
+  background-color: #f1f1f1;
+}
+
 .background-white {
   background-color: #ffffff;
-}
+} 
 
 body, h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
