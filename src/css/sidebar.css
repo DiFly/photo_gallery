@@ -12,11 +12,14 @@
 
 .sidebar__item {
   display: block;
-  width: 100%;
   text-align: center;
+  padding: 8px 16px;
+  width: 100%;
 }
 
 .sidebar__title {
+  font-weight: bolder;
+
   padding-top: 64px;
   padding-bottom: 64px;
 }
