@@ -9,6 +9,9 @@
   src: url(../font/Raleway/static/Raleway-Regular.ttf);
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 body {
   box-sizing: border-box;
@@ -44,9 +47,31 @@ a {
 
 body, h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
+  font-weight: 400;
   margin: 10px 0;
 }
 
 h3 {
     font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
 }
