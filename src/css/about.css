@@ -45,7 +45,7 @@
   padding: 12px 24px;
   margin-bottom: 16px;
   margin-top: 16px;
-  transition: 500ms;
+  transition: 300ms;
 }
 
 .about__content-button:hover, .about__content-button:focus {
@@ -71,4 +71,49 @@
 .about__content-plan-ul {
   color: #000;
   background-color: #fff;
+  transition: 200ms;
+  opacity: 0.60;
+}
+
+.about__content-plan-ul:hover {
+  opacity: 1;
+}
+
+.about__content-plan-ul li {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  color: #000;
+  background-color: #fff;
+}
+
+.about__content-plan-ul li span {
+  font-size: 15px;
+  opacity: 0.60;
+}
+
+.about__content-plan-ul li:first-child {
+  color: #fff;
+  background-color: #000;
+  font-size: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.about__content-plan-ul li:last-child {
+  border-bottom: none;
+  background-color: #f1f1f1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.about__content-plan-ul li button {
+  color: #000;
+  background-color: #fff;
+  padding: 12px 24px;
+  transition: 200ms;
+}
+
+.about__content-plan-ul li button:hover {
+  color: #000;
+  background-color: #ccc;
 }
