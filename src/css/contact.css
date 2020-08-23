@@ -20,3 +20,19 @@
   font: inherit;
   margin: 0;
 }
+
+.contact__submit-button {
+  color: #fff;
+  background-color: #000;
+  display: block;
+  width: 100%;
+  user-select: none;
+  margin-bottom: 16px;
+
+  transition: 300ms;
+}
+
+.contact__submit-button:hover {
+  color: #000;
+  background-color: #ccc;
+} 
