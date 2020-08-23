@@ -1,0 +1,22 @@
+.contact {
+  padding: 32px 24px;
+}
+
+.contact__content {
+  max-width: 600px;
+}
+
+.contact__input-wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.contact__input {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 100%;
+  overflow: visible;
+  font: inherit;
+  margin: 0;
+}

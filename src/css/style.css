@@ -3,6 +3,7 @@
 @import url("photo-list.css");
 @import url("pagination.css");
 @import url("about.css");
+@import url("contact.css");
 
 @font-face {
   font-family: Raleway;
@@ -31,6 +32,10 @@ a {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-gray {
