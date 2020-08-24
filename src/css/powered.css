@@ -1,0 +1,13 @@
+.powered {
+  color: #fff;
+  background-color: #000;
+  padding: 24px 0;
+}
+
+.powered__url {
+  text-decoration: underline;
+}
+
+.powered__url:hover {
+  opacity: 0.60;
+}
