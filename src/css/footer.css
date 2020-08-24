@@ -31,10 +31,17 @@
 .footer__blog__list-item {
   padding: 16px;
   border-bottom: 1px solid #ddd;
+
+  transition: 200ms;
 }
 
 .footer__blog__list-item:last-of-type {
   border-bottom: none;
+}
+
+.footer__blog__list-item:hover {
+  color: #fff;
+  background-color: #000;
 }
 
 .footer__blog__list-item-img {
@@ -52,4 +59,21 @@
   flex-basis: 33.33%;
   flex-grow: 1;
   flex-shrink: 1;
+}
+
+.footer__tags-item {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  background-color: #616161;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 16px;
+}
+
+.tags-selected {
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
 }
