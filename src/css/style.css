@@ -1,4 +1,5 @@
 @import url("sidebar.css");
+@import url("header.css");
 @import url("main.css");
 @import url("photo-list.css");
 @import url("pagination.css");
@@ -19,8 +20,11 @@
 body {
   box-sizing: border-box;
   max-width: 1600px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   font-size: 15px;
   line-height: 1.5;
+  margin: 0;
 }
 
 a {
@@ -54,7 +58,7 @@ a {
   background-color: #ffffff;
 } 
 
-body, h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 10px 0;
