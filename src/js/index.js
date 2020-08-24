@@ -1,8 +1,9 @@
 function sidebarOpen() {
-  console.log("Sidebar OPENED");
   document.getElementById('sidebar').style.display = "block";
+  document.getElementById('overlay').style.display = "block";
 }
 
 function sidebarClose() {
-  console.log("Sidebar CLOSED");
+  document.getElementById('sidebar').style.display = "none";
+  document.getElementById('overlay').style.display = "none";
 }
