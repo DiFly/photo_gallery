@@ -77,3 +77,13 @@
   background-color: #000;
   font-size: 15px;
 }
+
+@media(max-width: 600px) {
+  .footer__div-wrapper {
+    flex-direction: column;
+  }
+
+  .footer__info, .footer__blog, .footer__tags {
+    width: 100%;
+  }
+}
