@@ -9,5 +9,7 @@ function sidebarClose() {
 }
 
 function showModalImage(element) {
-  console.log(element.style.backgroundImage.replace(/(url\(|\)|")/g, ''));
+  // console.log(element.style.backgroundImage.replace(/(url\(|\)|")/g, ''));
+  document.getElementById("modalimage__img").src = element.style.backgroundImage.replace(/(url\(|\)|")/g, '');
+  document.getElementById("modalimage").style.display = "block";
 }
