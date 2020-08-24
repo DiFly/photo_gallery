@@ -23,3 +23,9 @@
   padding-top: 64px;
   padding-bottom: 64px;
 }
+
+@media (max-width: 992px) {
+  .sidebar {
+    display: none;
+  }
+}
