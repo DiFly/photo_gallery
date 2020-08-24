@@ -9,7 +9,9 @@ function sidebarClose() {
 }
 
 function showModalImage(element) {
+  // console.log(element.getAttribute('alt'));
   // console.log(element.style.backgroundImage.replace(/(url\(|\)|")/g, ''));
   document.getElementById("modalimage__img").src = element.style.backgroundImage.replace(/(url\(|\)|")/g, '');
   document.getElementById("modalimage").style.display = "block";
+  document.getElementById("modalimage__caption").innerHTML = element.getAttribute('alt') ? element.getAttribute('alt') : '';
 }

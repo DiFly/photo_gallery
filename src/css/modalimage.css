@@ -51,12 +51,21 @@
 
   outline: 0;
   width: 600px;
+
+  animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform:scale(1);
+  }
 }
 
 .modalimage__img {
-
-}
-
-.modalimage__caption {
-
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
 }

@@ -38,7 +38,7 @@
 
     <!-- Photo list -->
     <section class="photo-list">
-      <div class="photo-list__item " style="background-image: url(./img/photo-1.jpg);" onclick="showModalImage(this)">
+      <div class="photo-list__item " style="background-image: url(./img/photo-1.jpg);" onclick="showModalImage(this)" alt="blablabla">
       </div>
       <div class="photo-list__item" style="background-image: url(./img/photo-2.jpg);">
       </div>
@@ -68,11 +68,12 @@
       <a class="pagination__items" href="#">»</a>
     </div>
 
+    <!-- Modal image -->
     <div id="modalimage" class="modalimage" onclick="this.style.display='none'">
       <span class="modalimage__close-button">×</span>
       <div class="modalimage__wrapper">
         <img id="modalimage__img" class="modalimage__img" src="">
-        <p id="caption" class="modalimage__caption"></p>
+        <p id="modalimage__caption" class="modalimage__caption"></p>
       </div>
     </div>
     
