@@ -69,3 +69,26 @@
   height: auto;
   vertical-align: middle;
 }
+
+
+@media (max-width: 768px) {
+  .modalimage {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .modalimage {
+    padding-top: 30px;
+  }
+
+  .modalimage__wrapper {
+    margin: 0 10px;
+    width: auto;
+  }
+}
+
+.scroll-no {
+  height: 100vh;
+  overflow-y: hidden;
+}

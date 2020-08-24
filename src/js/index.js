@@ -14,4 +14,11 @@ function showModalImage(element) {
   document.getElementById("modalimage__img").src = element.style.backgroundImage.replace(/(url\(|\)|")/g, '');
   document.getElementById("modalimage").style.display = "block";
   document.getElementById("modalimage__caption").innerHTML = element.getAttribute('alt') ? element.getAttribute('alt') : '';
+
+  document.getElementsByTagName("body")[0].classList.add("scroll-no");
+}
+
+function hideModalImage() {
+  document.getElementById("modalimage").style.display = "none";
+  document.getElementsByTagName("body")[0].classList.remove("scroll-no");
 }
