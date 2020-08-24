@@ -24,6 +24,12 @@
   cursor: pointer;
 }
 
+@media (max-width: 992px) {
+  .photo-list__item {
+    height: 450px;
+  }
+}
+
 .photo-list__item-image {
   width: 100%;
 }
