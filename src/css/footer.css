@@ -15,18 +15,40 @@
 }
 
 .footer__info {
+  padding: 0 8px;
   flex-basis: 33.33%;
   flex-grow: 1;
   flex-shrink: 1;
 }
 
 .footer__blog {
+  padding: 0 8px;
   flex-basis: 33.33%;
   flex-grow: 1;
   flex-shrink: 1;
 }
 
+.footer__blog__list-item {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer__blog__list-item:last-of-type {
+  border-bottom: none;
+}
+
+.footer__blog__list-item-img {
+  width: 50px;
+  margin-right: 16px;
+  float: left;
+}
+
+.footer__blog__list-item-title {
+  font-size: 18px;
+}
+
 .footer__tags {
+  padding: 0 8px;
   flex-basis: 33.33%;
   flex-grow: 1;
   flex-shrink: 1;
