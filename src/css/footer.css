@@ -9,4 +9,25 @@
 
 .footer__div-wrapper {
   padding: 0 8px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__info {
+  flex-basis: 33.33%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.footer__blog {
+  flex-basis: 33.33%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.footer__tags {
+  flex-basis: 33.33%;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
