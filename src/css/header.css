@@ -31,4 +31,10 @@
   display: inline-block;
   padding: 8px 16px;
   margin: 0;
+
+  transition: 1s;
+}
+
+.header__togle:hover {
+  background-color: #ccc;
 }

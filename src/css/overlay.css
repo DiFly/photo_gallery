@@ -12,6 +12,7 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 4;
   
+  transition: 1s;
   animation: opac 0.8s;
 }
 
