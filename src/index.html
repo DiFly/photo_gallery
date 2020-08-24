@@ -38,7 +38,7 @@
 
     <!-- Photo list -->
     <section class="photo-list">
-      <div class="photo-list__item " style="background-image: url(./img/photo-1.jpg);">
+      <div class="photo-list__item " style="background-image: url(./img/photo-1.jpg);" onclick="showModalImage(this)">
       </div>
       <div class="photo-list__item" style="background-image: url(./img/photo-2.jpg);">
       </div>
@@ -66,6 +66,14 @@
       <a class="pagination__items" href="#">3</a>
       <a class="pagination__items" href="#">4</a>
       <a class="pagination__items" href="#">»</a>
+    </div>
+
+    <div id="modalimage" class="modalimage" onclick="this.style.display='none'">
+      <span class="modalimage__close-button">×</span>
+      <div class="modalimage__wrapper">
+        <img id="modalimage__img" class="" src="">
+        <p id="caption" class="modalimage__caption"></p>
+      </div>
     </div>
     
     <!-- About -->

@@ -7,3 +7,7 @@ function sidebarClose() {
   document.getElementById('sidebar').style.display = "none";
   document.getElementById('overlay').style.display = "none";
 }
+
+function showModalImage(element) {
+  console.log(element.style.backgroundImage.replace(/(url\(|\)|")/g, ''));
+}
