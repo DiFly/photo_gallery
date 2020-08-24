@@ -62,6 +62,12 @@
   justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .about__content-plan-wrapper {
+    flex-direction: column;
+  }
+}
+
 .about__content-plan-wrapper > div {
   margin-bottom: 16px;
   flex-grow: 1;
